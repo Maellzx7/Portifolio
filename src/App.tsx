@@ -18,13 +18,11 @@ function App() {
       <header className={`header ${scrolled ? 'scrolled' : ''}`}>
         <h1 className="logo">
           <span className="logo-text">JP & ANTHONY</span>
-          <span className="logo-dot">:</span>
-          <span className="logo-emoji">)</span>
+         
         </h1>
 
         <nav className={`nav ${menuOpen ? "open" : ""}`}>
           <a href="#sobre" onClick={() => setMenuOpen(false)}>Sobre</a>
-          <a href="#projetos" onClick={() => setMenuOpen(false)}>Projetos</a>
           <a href="#habilidades" onClick={() => setMenuOpen(false)}>Habilidades</a>
           <a href="#contato" onClick={() => setMenuOpen(false)}>Contato</a>
         </nav>
@@ -59,8 +57,12 @@ function App() {
               Alunos do 3DS da Etec
             </p>
             <div className="hero-badges">
+               <p className="animate-subtitle">
+              PRINCIPAIS DOTES:
+            </p>
               <span className="badge">✨ JavaScript</span>
               <span className="badge">🌐 HTML/CSS</span>
+              <span className="badge">💅 MULHERES</span>
             </div>
           </div>
         </div>
